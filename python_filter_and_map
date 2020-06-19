@@ -1,0 +1,11 @@
+Use map() to generate a list.Use filter() to filter elements of a list.Use lambda to define anonymous functions.
+
+The syntax of filter() ,map () method is:
+filter(function, iterable)
+map(function,iterable)
+
+
+l=[1,2,3,4,5,6,7,8,9,10]
+k=list(map(lambda x:x**2 ,filter(lambda x:x%2==0 , l)))
+print(k)
+
